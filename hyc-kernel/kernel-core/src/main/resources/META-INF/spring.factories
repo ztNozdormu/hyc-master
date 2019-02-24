@@ -1,0 +1,10 @@
+# AutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.hyc.telehealth.core.config.AopAutoConfiguration,\
+com.hyc.telehealth.core.config.RedisAutoConfiguration,\
+com.hyc.telehealth.core.config.FastjsonAutoConfiguration,\
+com.hyc.telehealth.core.config.MybatisDataSourceAutoConfiguration,\
+com.hyc.telehealth.core.config.PropertiesAutoConfiguration,\
+com.hyc.telehealth.core.config.UtilAutoConfiguration,\
+com.hyc.telehealth.core.config.WebAutoConfiguration,\
+com.hyc.telehealth.core.config.DbInitializerAutoConfiguration

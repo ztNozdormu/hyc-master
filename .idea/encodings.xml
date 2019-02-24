@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hyc-appointment" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hyc-appointment-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hyc-appointment/appointment-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hyc-appointment/appointment-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hyc-appointment/appointment-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hyc-filepreview-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hyc-filepreview-web/filepreview-jodconverter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hyc-filepreview-web/filepreview-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hyc-kernel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hyc-kernel/kernel-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hyc-kernel/kernel-jwt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hyc-kernel/kernel-logger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hyc-kernel/kernel-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hyc-kernel/kernel-sign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hyc-kernel/kernel-validator" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

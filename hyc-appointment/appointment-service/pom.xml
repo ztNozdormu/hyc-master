@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>hyc-appointment</artifactId>
+        <groupId>com.hyc.telehealth</groupId>
+        <version>0.0.1</version>
+    </parent>
+    <packaging>jar</packaging>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>appointment-service</artifactId>
+    <name>appointment-service</name>
+    <description>预约接口实现层</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.hyc.telehealth</groupId>
+            <artifactId>appointment-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.hyc.telehealth</groupId>
+            <artifactId>kernel-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.hyc.telehealth</groupId>
+            <artifactId>kernel-model</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <!--<version>${spring-boot.version}</version>-->
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- docker -->
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>dockerfile-maven-plugin</artifactId>
+                <configuration>
+                    <username>admin</username>
+                    <password>admin123</password>
+                    <repository>http://localhost:8081/nexus/repository/docker-public/</repository>
+                    <!-- <repository>${docker.image.prefix}/${project.artifactId}</repository> -->
+                    <tag>${project.version}</tag>
+                    <buildArgs>
+                        <JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
+                    </buildArgs>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

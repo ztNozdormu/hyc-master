@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.hyc.telehealth.kernel.jwt.config.JwtAutoConfiguration

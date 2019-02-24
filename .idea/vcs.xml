@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/hyc-appointment" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/hyc-appointment/appointment-api" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/hyc-kernel" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/hyc-kernel/kernel-logger" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/hyc-kernel/kernel-model" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/hyc-kernel/kernel-validator" vcs="svn" />
+  </component>
+</project>

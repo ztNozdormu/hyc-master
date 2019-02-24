@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="appointment-api" />
+        <module name="appointment-model" />
+        <module name="appointment-service" />
+        <module name="filepreview-jodconverter" />
+        <module name="filepreview-web" />
+        <module name="hyc-appointment-web" />
+        <module name="kernel-core" />
+        <module name="kernel-jwt" />
+        <module name="kernel-logger" />
+        <module name="kernel-model" />
+        <module name="kernel-sign" />
+        <module name="kernel-validator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="appointment-api" target="1.8" />
+      <module name="appointment-model" target="1.8" />
+      <module name="appointment-service" target="1.8" />
+      <module name="filepreview-jodconverter" target="1.8" />
+      <module name="filepreview-web" target="1.8" />
+      <module name="hyc-appointment" target="1.8" />
+      <module name="hyc-appointment-web" target="1.8" />
+      <module name="hyc-filepreview-web" target="1.8" />
+      <module name="hyc-kernel" target="1.8" />
+      <module name="hyc-master" target="1.8" />
+      <module name="kernel-core" target="1.8" />
+      <module name="kernel-jwt" target="1.8" />
+      <module name="kernel-logger" target="1.8" />
+      <module name="kernel-model" target="1.8" />
+      <module name="kernel-sign" target="1.8" />
+      <module name="kernel-validator" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding UTF8" />
+  </component>
+</project>

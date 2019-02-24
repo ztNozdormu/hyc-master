@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>hyc-appointment</artifactId>
+        <groupId>com.hyc.telehealth</groupId>
+        <version>0.0.1</version>
+    </parent>
+    <packaging>jar</packaging>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>appointment-api</artifactId>
+    <name>appointment-api</name>
+    <description>预约远程调用接口定义</description>
+    <dependencies>
+        <dependency>
+            <groupId>com.hyc.telehealth</groupId>
+            <artifactId>appointment-model</artifactId>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hyc-appointment/appointment-api/appointment-api.iml" filepath="$PROJECT_DIR$/hyc-appointment/appointment-api/appointment-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hyc-appointment/appointment-model/appointment-model.iml" filepath="$PROJECT_DIR$/hyc-appointment/appointment-model/appointment-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hyc-appointment/appointment-service/appointment-service.iml" filepath="$PROJECT_DIR$/hyc-appointment/appointment-service/appointment-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hyc-filepreview-web/filepreview-jodconverter/filepreview-jodconverter.iml" filepath="$PROJECT_DIR$/hyc-filepreview-web/filepreview-jodconverter/filepreview-jodconverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hyc-filepreview-web/filepreview-web/filepreview-web.iml" filepath="$PROJECT_DIR$/hyc-filepreview-web/filepreview-web/filepreview-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hyc-appointment/hyc-appointment.iml" filepath="$PROJECT_DIR$/hyc-appointment/hyc-appointment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hyc-appointment-web/hyc-appointment-web.iml" filepath="$PROJECT_DIR$/hyc-appointment-web/hyc-appointment-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hyc-filepreview-web/hyc-filepreview-web.iml" filepath="$PROJECT_DIR$/hyc-filepreview-web/hyc-filepreview-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hyc-kernel/hyc-kernel.iml" filepath="$PROJECT_DIR$/hyc-kernel/hyc-kernel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hyc-master.iml" filepath="$PROJECT_DIR$/hyc-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hyc-kernel/kernel-core/kernel-core.iml" filepath="$PROJECT_DIR$/hyc-kernel/kernel-core/kernel-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hyc-kernel/kernel-jwt/kernel-jwt.iml" filepath="$PROJECT_DIR$/hyc-kernel/kernel-jwt/kernel-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hyc-kernel/kernel-logger/kernel-logger.iml" filepath="$PROJECT_DIR$/hyc-kernel/kernel-logger/kernel-logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hyc-kernel/kernel-model/kernel-model.iml" filepath="$PROJECT_DIR$/hyc-kernel/kernel-model/kernel-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hyc-kernel/kernel-sign/kernel-sign.iml" filepath="$PROJECT_DIR$/hyc-kernel/kernel-sign/kernel-sign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hyc-kernel/kernel-validator/kernel-validator.iml" filepath="$PROJECT_DIR$/hyc-kernel/kernel-validator/kernel-validator.iml" />
+    </modules>
+  </component>
+</project>
